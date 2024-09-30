@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center><h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <fieldset>
+        <legend>applicant details</legend>
+    <form>
+        <label for="Name">Name:</label>                   
+<input type="text"name="Name:"id="Name">
+
+<label for="father name"> Father Name:</label>                   
+<input type="text"name="father name"id="father name"><br>
+
+<label for="DOB:"> DOB:</label>                   
+<input type="text"name="DOB"id="DOB">
+
+<label for="gender">GENDER:</label>
+   <label type="male">male</label>
+    <input type="radio"id="male"name="gender">
+    <label type="female">female</label>
+    <input type="radio"id="female"name="gender"><br>
+
+    <label for="age is on">age is on:</label>
+    
+
+    <label for="age is on">year(s)</label>
+    <input type="text"name="age is on"id="age is on" size="1">
+
+    
+    <label for="age is on">month(s)</label>
+    <input type="text"name="age is on"id="age is on" size="1">
+
+    <label for="age is on">day(s)</label>
+    <input type="text"name="age is on"id="age is on" size="1">
+
+    <label for="aadhar no">aadhar no:</label>
+    <input type="text"name="aadhar no"id="aadhar no"><br>
+
+    <label for="mobile no">mobile no:</label>
+    <input type="text"name="mobile no"id="mobile no">
+
+    <label for="email id">email id:</label>
+    <input type="text"name="email id"id="email id"><br>
+
+    <label for="photo">photo:</label>
+    <input type="file"value="choose file"></fieldset>
+    
+
+    <fieldset>
+        <legend>Residential Address Details</legend>
+        <label for="Applicants Address">Applicants Address Details:</label>
+        <input type="textarea"name="Applicants Address Details"id="Applicants Address Details"height="100"width="100">
+       
+
+        <label for="district">District*</label>
+        <select id="district" name="district">
+            <option value="hyderabad">HYDERABAD</option>
+            <option value="Hyderabad">kachiguda</option>
+            <option value="Hyderabad">sirisilla</option>
+        </select><br>
+
+
+        <label for="">mandal*</label>
+        <select idmandal name="mandal">
+            <option value="hyderabad">kphb</option>
+            <option value="Hyderabad">kukatpally</option>
+            <option value="Hyderabad">jntuk</option>
+        </select>
+
+        <label for="district">village*</label>
+        <select id="village" name="village">
+            <option value="hyderabad">HYDERABAD</option>
+            <option value="Hyderabad">balanagar</option>
+            <option value="Hyderabad">chintal</option>
+        </select>
+
+    </fieldset>
+        
+     
+    <fieldset>
+        <legend>Pass Type Details</legend>
+        <label for="city">City*</span></label>
+        <select id="city" name="city">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="secundrabad">secundrabad</option>
+            <!-- Add other cities if needed -->
+        </select>
+        <br>
+        
+        <label for="passType">Pass Type*</span></label>
+        <select id="passType" name="passType">
+            <option value="">-----Select-----</option>
+            <option value="student">student</option>
+            <option value="employee">employee</option></select></fieldset>
+
+            <fieldset>
+                <legend>Mode of Payment & pass Collection</legend>
+
+                <form action="/submit" method="post">
+                    <label for="payment-mode">Payment Mode*</span></label>
+                    <select id="payment-mode" name="payment_mode" required>
+                        <option value="">Select Payment Mode</option>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="net-banking">Net Banking</option></select><br> </fieldset></form>
+                    <input type="submit"value="submit">
+                
+
+
+
+
+
+
+
+</body>
+</html>
